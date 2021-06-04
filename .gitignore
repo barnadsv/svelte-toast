@@ -1,7 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,node
 
-/dist/
+#/dist/
 
 ### macOS ###
 # General
