@@ -11,7 +11,7 @@ Svelte component.
 
 Because a demo helps better than a thousand API docs: https://zerodevx.github.io/svelte-toast/
 
-Obs: Added border-width and border-color to orginal library
+> Obs: Added border-width and border-color to orginal library
 
 ## Usage
 
