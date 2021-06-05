@@ -12,6 +12,7 @@ declare module '@zerodevx/svelte-toast'
  *  dismissable: true,    // allow dismiss with close button
  *  initial: 1,           // initial progress bar value
  *  progress: 0,          // current progress
+ *  noProgress: false     // has progress by default
  *  reversed: false,      // insert new toast to bottom of stack
  *  intro: { x: 256 },    // toast intro fly animation settings
  *  theme: {}             // css var overrides
@@ -23,6 +24,7 @@ export interface SvelteToastOptions {
   dismissable: boolean
   initial: number
   progress: number
+  noProgress: boolean
   reversed: boolean
   intro: FlyParams
   theme: { [key: string]: string }
