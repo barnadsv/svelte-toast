@@ -10,6 +10,7 @@ const defaults = {
   dismissable: true,
   initial: 1,
   progress: 0,
+  noProgress: false,
   reversed: false,
   intro: { x: 256 },
   theme: {}

@@ -180,11 +180,22 @@ toast.set(id, { progress: 1 })`,
     run: async () => {
       colors = false
       bottom = false
-      options = { reversed: false, intro: { x: 256 } }
+      options = { reversed: false, intro: { x: 256 }, noProgress: false }
       await tick()
       toast.push('All themes reset!')
     }
-  }
+  },
+  {
+    name: 'NO PROGRESS',
+    code: `toast.push('No progress bar', {
+  noProgress: true
+})`, // eslint-disable-line quotes
+    run: async () => {
+      options = { noProgress: true }
+      await tick()
+      toast.push('Hello world!')
+    }
+  },
 ]
 
 </script>
